@@ -194,7 +194,15 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    if ((event.body.toLowerCase() == "bot tui valo nah") || (event.body.toLowerCase() == "sala tui valo nah")) {
      return api.sendMessage("হুম ঝাং আমি তোমাকে রাইতে ভলোপাসি <🥵", threadID);
    };
-
+  
+if ((event.body.toLowerCase() == "lucca") || (event.body.toLowerCase() == "লুচ্চা ")) {
+     return api.sendMessage("তুই লুচ্চা তোর ১৪গোষ্টি", threadID);
+   };
+  
+  if ((event.body.toLowerCase() == "abal") || (event.body.toLowerCase() == "আবাল")) {
+     return api.sendMessage("সর এখান থেকে  আবাল..!🐸🤣👍⛏️", threadID);
+   };
+  
    if ((event.body.toLowerCase() == "ami") || (event.body.toLowerCase() == "kire")) {
      return api.sendMessage("হ্যা বস কেমন আছেন..?☺️", threadID);
    };
