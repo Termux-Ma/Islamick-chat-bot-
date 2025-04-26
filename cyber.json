@@ -17,7 +17,7 @@
     "PASSWORD": "",
     "OTPKEY": "",
     "BOTNAME": "BBH BOT",
-    "PREFIX": "$",
+    "PREFIX": "!",
     "ADMINBOT": [
         "100000967372029"
     ],
