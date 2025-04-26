@@ -206,6 +206,19 @@ if ((event.body.toLowerCase() == "lucca") || (event.body.toLowerCase() == "ল�
    if ((event.body.toLowerCase() == "ami") || (event.body.toLowerCase() == "kire")) {
      return api.sendMessage("হ্যা বস কেমন আছেন..?☺️", threadID);
    };
+  
+  if ((event.body.toLowerCase() == "হুম সালা আবাল") || (event.body.toLowerCase() == "আবাল সালা")) {
+     return api.sendMessage("দেখ তোরা আবাল", threadID);
+   };
+  
+  if ((event.body.toLowerCase() == কেমনে") || (event.body.toLowerCase() == "কীভাবে ")) {
+     return api.sendMessage("আমি তো রোবট মানুষ নাহ", threadID);
+   };
+  
+  if ((event.body.toLowerCase() == "আপু আপনার বাসা কোয়") || (event.body.toLowerCase() == "আপনার বাসা কোয়")) {
+     return api.sendMessage("তোমার মনে🤭🤗", threadID);
+   };
+  
   mess = "{name}"
   
   if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("bot") == 0)) {
