@@ -143,8 +143,8 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("️আমি না তুই বলদ,🫵", threadID);
    };
 
-   if ((event.body.toLowerCase() == "cudi") || (event.body.toLowerCase() == "tor nanire xudi")) {
-     return api.sendMessage("️এত চোদা চুদি করস কেনো দেখা যাবে বাসর-রাতে-তুই-কতো পারিস..!🥱🌝🌚⛏️🌶️ ", threadID);
+   if ((event.body.toLowerCase() == "jane na") || (event.body.toLowerCase() == "জানি নাহ গো")) {
+     return api.sendMessage("️কুত্তার বাচ্চা জানিস নাহ মনে, তোর বউ বল 🥱🌝🌚⛏️🌶️ ", threadID);
    };
 
    if ((event.body.toLowerCase() == "😅") || (event.body.toLowerCase() == "...")) {
